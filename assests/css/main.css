@@ -7,6 +7,7 @@
 
 body {
     color: white;
+    margin: 0;
 }
 
 .mainImg {
@@ -27,3 +28,19 @@ a, a:visited {
 a:hover {
     color: darkred;
 }
+
+/* HEADER */
+
+header {
+    background-color: black;
+    border-bottom: 1em solid darkred;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.headerLinks {
+    display: flex;
+    justify-content: space-evenly;
+}
+
