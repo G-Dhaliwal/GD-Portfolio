@@ -1,0 +1,15 @@
+* {
+    box-sizing: inherit;
+    border: 1px solid blue;
+  }
+
+  .mainImg {
+    height: 10em;
+    width: auto;
+  }
+
+  #projectImg {
+    height: 15em;
+    width: auto;
+  }
+  
