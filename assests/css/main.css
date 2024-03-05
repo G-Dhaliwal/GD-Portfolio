@@ -1,6 +1,5 @@
 * {
     box-sizing: inherit;
-    border: 1px solid blue;
 }
 
 /* IMAGES AND LINKS */
@@ -76,4 +75,51 @@ header {
     margin-top: -1em;
     padding: 0;
     color: darkred;
+}
+
+.aboutSections {
+    background-color: black;
+    border-bottom: 1em solid darkred;
+    margin-top: -1.4em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 18px;
+}
+
+.aboutHeader {
+    font-size: 22px;
+    border-bottom: 2px solid darkred;
+}
+
+.aboutSkills {
+    height: 13em;
+    width: 17em;
+}
+
+.aboutTraining {
+    height: 13em;
+    width: 20em;
+}
+
+.aboutAwards {
+    height: 13em;
+}
+
+.awards {
+    font-size: 19px;
+}
+
+button {
+    color: darkred;
+    background-color: black;
+    padding: 7px;
+    border: 1px solid darkred;
+    margin: 5px;
+}
+
+button:hover {
+    color: black;
+    background-color: white;
 }
