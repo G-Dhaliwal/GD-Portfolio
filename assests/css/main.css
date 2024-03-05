@@ -1,15 +1,29 @@
 * {
     box-sizing: inherit;
     border: 1px solid blue;
-  }
+}
 
-  .mainImg {
+/* IMAGES AND LINKS */
+
+body {
+    color: white;
+}
+
+.mainImg {
     height: 10em;
     width: auto;
-  }
+}
 
-  #projectImg {
+#projectImg {
     height: 15em;
     width: auto;
-  }
+}
   
+a, a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: darkred;
+}
