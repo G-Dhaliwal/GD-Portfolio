@@ -16,7 +16,7 @@ body {
 }
 
 #projectImg {
-    height: 15em;
+    height: 14em;
     width: auto;
 }
   
@@ -86,6 +86,8 @@ header {
     justify-content: space-evenly;
     text-align: center;
     font-size: 18px;
+    padding-left: 2.7em;
+    padding-bottom: 2em;
 }
 
 .aboutHeader {
