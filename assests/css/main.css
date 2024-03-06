@@ -123,3 +123,10 @@ button:hover {
     color: black;
     background-color: white;
 }
+
+/* PROJECTS SECTION */
+
+.generalProjectSection, .javascriptProjectSection {
+    background: linear-gradient(black, rgb(87, 11, 11), black);
+    margin-top: -1.4em;
+}
