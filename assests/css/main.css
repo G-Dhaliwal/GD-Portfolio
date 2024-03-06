@@ -128,17 +128,26 @@ button:hover {
 
 .generalProjectSection, .javascriptProjectSection {
     background: linear-gradient(black, rgb(87, 11, 11), black);
+    text-align: center;
+    padding-bottom: 5em;
     margin-top: -1.5em;
 }
 
-.projectMainTitle {
+.javascriptProjectSection {
+    border-bottom: 1em solid darkred;
+}
+
+.projectMainTitleJS, .projectMainTitleGeneral {
     padding-top: 3em;
     padding-bottom: 1.5em;
     border-bottom: 2px solid darkred;
     font-size: 24px;
-    text-align: center;
-    width: 30em;
-    position: absolute;
-    top: ;
-    left: 19.5em;
+}
+
+.generalProjects,.javascriptProjects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 99vw;
+    padding-top: 5em;
 }
