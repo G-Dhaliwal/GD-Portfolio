@@ -178,4 +178,29 @@ button:hover {
 .contactsMainHeader {
     font-weight: bold;
     font-size: 50px;
+    padding-bottom: 3em;
+}
+
+.contactSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 30em;
+    margin: auto;
+}
+
+.contactIMG {
+    width: 100px;
+    height: auto;
+}
+
+.contactTitle {
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 10px;
+    padding-top: 5px;
+    background-color: black;
+    height: 1.5em;
+    border: 5px solid darkred;
+    border-radius: 15px;
 }
