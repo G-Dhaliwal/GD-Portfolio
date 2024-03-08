@@ -167,3 +167,15 @@ button:hover {
     border-left: 5px solid darkred;
     border-top: 2px solid darkred;
 }
+
+/* CONTACT SECTION */
+
+.contentContainer {
+    background: linear-gradient(black, rgb(87, 11, 11), black);
+    text-align: center;
+}
+
+.contactsMainHeader {
+    font-weight: bold;
+    font-size: 50px;
+}
