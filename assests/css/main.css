@@ -178,7 +178,7 @@ button:hover {
 .contactsMainHeader {
     font-weight: bold;
     font-size: 50px;
-    padding-bottom: 3em;
+    padding-bottom: 2.5em;
 }
 
 .contactSection {
@@ -190,7 +190,7 @@ button:hover {
 }
 
 .contactIMG {
-    width: 100px;
+    width: 150px;
     height: auto;
 }
 
