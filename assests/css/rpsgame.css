@@ -1,0 +1,7 @@
+* {
+    box-sizing: inherit;
+}
+
+.hide {
+    display: none;
+  }
