@@ -22,7 +22,8 @@ header {
     position: absolute;
     background-color: darkblue;
     text-align: center;
-    width: 100vw;
+    width: 99vw;
+    height: 10.5em;
     top: 0;
     left: 0;
     border-bottom: 1em solid black;
@@ -32,8 +33,37 @@ header {
     margin-bottom: -20px;
     font-size: 40px;
     font-weight: bold;
+    padding-top: 15px;
 }
 
 h4 {
     font-size: 20px;
+}
+
+
+main {
+    position: absolute;
+    background-color: darkred;
+    top: 11.5em;
+    left: 0;
+    width: 99vw;
+    height: 50em;
+}
+
+
+/* Light Mode / Dark Mode Button */
+
+.lightDarkImg {
+    height: 3em;
+    width: 3em;
+}
+
+.lightDark {
+    background-color: none;
+    border: none;
+}
+
+.lightDark:hover {
+    cursor: pointer;
+    background-color: black;
 }
