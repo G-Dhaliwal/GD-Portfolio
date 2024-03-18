@@ -1,5 +1,6 @@
 * {
     box-sizing: inherit;
+    overflow-x: hidden;
 }
 
 .hide {
@@ -80,10 +81,10 @@ main {
 
 .mainGameSection {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     margin: auto;
-    width: 50em;
+    max-width: 50em;
 }
 
 .playerText, .computerText, .computerPointText, .playerPointText {
@@ -116,6 +117,8 @@ main {
     font-size: 70px;
     margin-top: auto;
     margin-bottom: auto;
+    margin-right: 50px;
+    margin-left: 50px;
 }
 
 .gameIMG {
