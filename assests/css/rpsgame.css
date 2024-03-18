@@ -75,3 +75,28 @@ main {
     cursor: pointer;
     background-color: rgb(67, 67, 67);
 }
+
+/* Main Game Display */
+
+.mainGameSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.playerText, .computerText, .computerPointText, .playerPointText {
+    border: 2px solid rgb(67, 67, 67);
+    background-color: lightskyblue;
+    width: 10em;
+    height: 1.5em;
+    text-align: center;
+    padding-top: 8px;
+    border-radius: 40px;
+    color: black;
+}
+
+.computerPointText, .playerPointText {
+    font-size: 20px;
+    margin: auto;
+}
