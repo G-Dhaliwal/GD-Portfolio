@@ -117,3 +117,8 @@ main {
     margin-top: auto;
     margin-bottom: auto;
 }
+
+.gameIMG {
+    width: 15em;
+    height: auto;
+}
