@@ -43,13 +43,18 @@ h4 {
 
 main {
     position: absolute;
-    background-color: darkred;
+    background-color: white;
+    color: black;
     top: 11.5em;
     left: 0;
     width: 99vw;
     height: 50em;
 }
 
+.darkMode {
+    background-color: black;
+    color: white;
+}
 
 /* Light Mode / Dark Mode Button */
 
@@ -59,8 +64,9 @@ main {
 }
 
 .lightDark {
-    background-color: none;
+    background-color: transparent;
     border: none;
+    border-radius: 20px;
 }
 
 .lightDark:hover {
