@@ -28,6 +28,7 @@ header {
     top: 0;
     left: 0;
     border-bottom: 1em solid black;
+    overflow: hidden;
 }
 
 .gameName {
@@ -49,7 +50,6 @@ main {
     top: 11.5em;
     left: 0;
     width: 99vw;
-    height: 50em;
 }
 
 .darkMode {
@@ -118,8 +118,8 @@ main {
     font-size: 70px;
     margin-top: auto;
     margin-bottom: auto;
-    margin-right: 50px;
-    margin-left: 50px;
+    margin-right: 60px;
+    margin-left: 60px;
 }
 
 .gameIMG {
