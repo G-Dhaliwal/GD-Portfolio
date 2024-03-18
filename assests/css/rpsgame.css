@@ -111,6 +111,7 @@ main {
     margin-right: auto;
     margin-bottom: 10px;
     border-radius: 15px;
+    overflow: hidden;
 }
 
 .vsSign {
@@ -141,4 +142,28 @@ main {
     margin-top: 2em;
     font-size: 18px;
     font-weight: bold;
+}
+
+.buttonChoiceSection {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    max-width: 40em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gameButton {
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.gameButton:hover {
+    background-color: lightskyblue;
 }
