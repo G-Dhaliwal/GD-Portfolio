@@ -111,3 +111,9 @@ main {
     margin-bottom: 10px;
     border-radius: 15px;
 }
+
+.vsSign {
+    font-size: 70px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
