@@ -1,6 +1,5 @@
 * {
     box-sizing: inherit;
-    color: white;
 }
 
 .hide {
@@ -21,6 +20,7 @@ a:hover {
 header {
     position: absolute;
     background-color: darkblue;
+    color: white;
     text-align: center;
     width: 99vw;
     height: 10.5em;
