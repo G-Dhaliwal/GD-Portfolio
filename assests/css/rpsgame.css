@@ -71,5 +71,5 @@ main {
 
 .lightDark:hover {
     cursor: pointer;
-    background-color: black;
+    background-color: rgb(67, 67, 67);
 }
