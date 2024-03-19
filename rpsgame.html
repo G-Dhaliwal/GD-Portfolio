@@ -30,12 +30,12 @@
                     </h2>
                 </div>
                 <div class="playerChoice">
-                    <img class="playerGameRock gameIMG hide" src="./assests/img/rpsgame/rock.png" alt="Rock">
-                    <img class="playerGamePaper gameIMG hide" src="./assests/img/rpsgame/paper.png" alt="Paper">
-                    <img class="playerGameScissors gameIMG hide" src="./assests/img/rpsgame/scissor.png" alt="Scissors">
+                    <img class="gameIMG hide" id="playerGameRock" src="./assests/img/rpsgame/rock.png" alt="Rock">
+                    <img class="gameIMG hide" id="playerGamePaper" src="./assests/img/rpsgame/paper.png" alt="Paper">
+                    <img class="gameIMG hide" id="playerGameScissor" src="./assests/img/rpsgame/scissor.png" alt="Scissors">
                 </div>
                 <div class="playerPoints">
-                    <p class="playerPointText">Points: 0</p>
+                    <p class="playerPointText" id="playerPointText">Points: 0</p>
                 </div>
             </div>
             <h1 class="vsSign">
@@ -48,28 +48,28 @@
                     </h2>
                 </div>
                 <div class="computerChoice">
-                    <img class="computerGameRock gameIMG hide" src="./assests/img/rpsgame/rock.png" alt="Rock">
-                    <img class="computerGamePaper gameIMG hide" src="./assests/img/rpsgame/paper.png" alt="Paper">
-                    <img class="computerGameScissors gameIMG hide" src="./assests/img/rpsgame/scissor.png" alt="Scissors">
+                    <img class="gameIMG hide" id="computerGameRock" src="./assests/img/rpsgame/rock.png" alt="Rock">
+                    <img class="gameIMG hide" id="computerGamePaper" src="./assests/img/rpsgame/paper.png" alt="Paper">
+                    <img class="gameIMG hide" id="computerGameScissor" src="./assests/img/rpsgame/scissor.png" alt="Scissors">
                 </div>
                 <div class="computerPoints">
-                    <p class="computerPointText">Points: 0</p>
+                    <p class="computerPointText" id="computerPointText">Points: 0</p>
                 </div>
             </div>
         </div>
 
         <div class="mainTextSection">
-            <p class="mainText">First to 5 points wins. Choose an option below to start!</p>
+            <p class="mainText" id="mainGameText">First to 5 points wins. Choose an option below to start!</p>
         </div>
 
         <div class="buttonChoiceSection">
-            <button class="rockButton gameButton">
+            <button class="gameButton" id="rockButton">
                 ROCK
             </button>
-            <button class="paperButton gameButton">
+            <button class="gameButton" id="paperButton">
                 PAPER
             </button>
-            <button class="scissorButton gameButton">
+            <button class="gameButton" id="scissorButton">
                 SCISSORS
             </button>
         </div>
