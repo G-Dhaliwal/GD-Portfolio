@@ -61,7 +61,7 @@ function rockChoiceGame() {
         computerRock.classList.add("hide");
         computerPaper.classList.add("hide");
         mainGameText.innerText = "You won this round. Congrats!";
-        
+
     } else {
         computerRock.classList.remove("hide");
         computerPaper.classList.add("hide");
@@ -71,11 +71,53 @@ function rockChoiceGame() {
 }
 
 function paperChoiceGame() {
-    
+    playerPaper.classList.remove("hide");
+    playerRock.classList.add("hide");
+    playerScissor.classList.add("hide");
+    computerRandom();
+    if (computerChoice == "scissor") {
+        computerScissor.classList.remove("hide");
+        computerPaper.classList.add("hide");
+        computerRock.classList.add("hide");
+        mainGameText.innerText = "You lost this round. Try Again.";
+
+    } else if (computerChoice == "rock") {
+        computerRock.classList.remove("hide");
+        computerScissor.classList.add("hide");
+        computerPaper.classList.add("hide");
+        mainGameText.innerText = "You won this round. Congrats!";
+        
+    } else {
+        computerPaper.classList.remove("hide");
+        computerRock.classList.add("hide");
+        computerScissor.classList.add("hide");
+        mainGameText.innerText = "It's a Draw. Try Again.";
+    }
 }
 
 function scissorChoiceGame() {
-    
+    playerScissor.classList.remove("hide");
+    playerPaper.classList.add("hide");
+    playerRock.classList.add("hide");
+    computerRandom();
+    if (computerChoice == "rock") {
+        computerRock.classList.remove("hide");
+        computerPaper.classList.add("hide");
+        computerScissor.classList.add("hide");
+        mainGameText.innerText = "You lost this round. Try Again.";
+
+    } else if (computerChoice == "paper") {
+        computerPaper.classList.remove("hide");
+        computerRock.classList.add("hide");
+        computerScissor.classList.add("hide");
+        mainGameText.innerText = "You won this round. Congrats!";
+        
+    } else {
+        computerScissor.classList.remove("hide");
+        computerPaper.classList.add("hide");
+        computerRock.classList.add("hide");
+        mainGameText.innerText = "It's a Draw. Try Again.";
+    }
 }
 
 function computerRandom() {
