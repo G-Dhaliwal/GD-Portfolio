@@ -2,6 +2,7 @@ const modeButton = document.querySelector("#buttonLightDark");
 const rockButton = document.querySelector("#rockButton");
 const paperButton = document.querySelector("#paperButton");
 const scissorsButton = document.querySelector("#scissorButton");
+const restartButton = document.querySelector("#restartButton");
 
 let main = document.querySelector("#mainSection");
 let sun = document.querySelector("#sunIMG");
@@ -29,6 +30,7 @@ modeButton.onclick = lightDark;
 rockButton.onclick = rockChoiceGame;
 paperButton.onclick = paperChoiceGame;
 scissorsButton.onclick = scissorChoiceGame;
+restartButton.onclick = newGame;
 
 
 function lightDark() {
@@ -128,13 +130,43 @@ function hideGamePieces() {
 function wonRound() {
     playerPoints++;
     playerPointText.innerText = `Points: ${playerPoints}`;
+    declareWinner();
 }
 
 function lostRound() {
     computerPoints++;
     computerPointText.innerText = `Points: ${computerPoints}`;
+    declareWinner();
 }
 
 function declareWinner() {
+    if (playerPoints == 5) {
+        mainGameText.innerText = "You got 5 points, You Win!";
+        playAgain();
+    } else if (computerPoints == 5) {
+        mainGameText.innerText = "Computer got 5 points, You Lose!";
+        playAgain();
+    } else {
 
+    }
+}
+
+function playAgain() {
+    rockButton.classList.add("hide");
+    paperButton.classList.add("hide");
+    scissorButton.classList.add("hide");
+    restartButton.classList.remove("hide");
+}
+
+function newGame() {
+    rockButton.classList.remove("hide");
+    paperButton.classList.remove("hide");
+    scissorButton.classList.remove("hide");
+    restartButton.classList.add("hide");
+    playerPoints = 0;
+    computerPoints = 0;
+    playerPointText.innerText = `Points: ${playerPoints}`;
+    computerPointText.innerText = `Points: ${computerPoints}`;
+    mainGameText.innerText = "First to 5 points wins. Choose an option below to start!";
+    hideGamePieces();
 }
