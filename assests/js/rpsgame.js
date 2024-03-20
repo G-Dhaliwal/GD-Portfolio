@@ -52,10 +52,12 @@ function rockChoiceGame() {
     if (computerChoice == "paper") {
         computerPaper.classList.remove("hide");
         mainGameText.innerText = "You lost this round. Try Again.";
+        lostRound();
 
     } else if (computerChoice == "scissors") {
         computerScissor.classList.remove("hide");
         mainGameText.innerText = "You won this round. Congrats!";
+        wonRound();
 
     } else {
         computerRock.classList.remove("hide");
@@ -67,13 +69,15 @@ function paperChoiceGame() {
     hideGamePieces()
     playerPaper.classList.remove("hide");
     computerRandom();
-    if (computerChoice == "scissor") {
+    if (computerChoice == "scissors") {
         computerScissor.classList.remove("hide");
         mainGameText.innerText = "You lost this round. Try Again.";
+        lostRound();
 
     } else if (computerChoice == "rock") {
         computerRock.classList.remove("hide");
         mainGameText.innerText = "You won this round. Congrats!";
+        wonRound();
         
     } else {
         computerPaper.classList.remove("hide");
@@ -88,10 +92,12 @@ function scissorChoiceGame() {
     if (computerChoice == "rock") {
         computerRock.classList.remove("hide");
         mainGameText.innerText = "You lost this round. Try Again.";
+        lostRound();
 
     } else if (computerChoice == "paper") {
         computerPaper.classList.remove("hide");
         mainGameText.innerText = "You won this round. Congrats!";
+        wonRound();
         
     } else {
         computerScissor.classList.remove("hide");
@@ -104,9 +110,9 @@ function computerRandom() {
     if (computerChoice < 33) {
         computerChoice = "rock";
     } else if (computerChoice > 66) {
-        computerChoice = "paper"
+        computerChoice = "paper";
     } else {
-        computerChoice = "scissors"
+        computerChoice = "scissors";
     }
 }
 
@@ -117,4 +123,18 @@ function hideGamePieces() {
     computerRock.classList.add("hide");
     computerPaper.classList.add("hide");
     computerScissor.classList.add("hide");
+}
+
+function wonRound() {
+    playerPoints++;
+    playerPointText.innerText = `Points: ${playerPoints}`;
+}
+
+function lostRound() {
+    computerPoints++;
+    computerPointText.innerText = `Points: ${computerPoints}`;
+}
+
+function declareWinner() {
+
 }
