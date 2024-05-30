@@ -11,10 +11,10 @@ button.onclick = runCheck;
 function runCheck() {
     let userInput = textInput.value;
     inputReverse = reverseString(userInput);
-    if (userInput == inputReverse) {
-        result.innerText = `${userInput.toUpperCase()} IS a palindrome.`;
-    } else if (userInput == "") {
+    if (userInput == "") {
         result.innerText = `Please enter a word`;
+    } else if (userInput == inputReverse) {
+        result.innerText = `${userInput.toUpperCase()} IS a palindrome.`;
     } else {
         result.innerText = `${userInput.toUpperCase()} is NOT a palindrome.`;
     }
