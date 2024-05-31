@@ -204,3 +204,10 @@ button:hover {
     border: 5px solid darkred;
     border-radius: 15px;
 }
+
+
+@media (max-width: 500px) {
+    .contactSection {
+        margin-top: -10em;
+    }
+  }
