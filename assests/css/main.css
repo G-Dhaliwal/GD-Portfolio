@@ -21,7 +21,11 @@ body {
     width: auto;
     border: 2px solid darkred;
 }
-  
+
+#projectImg:hover {
+    border: 5px solid darkred;
+}
+
 a, a:visited {
     text-decoration: none;
     color: white;
