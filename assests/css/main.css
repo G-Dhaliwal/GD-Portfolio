@@ -33,6 +33,7 @@ a, a:visited {
 
 a:hover {
     color: darkred;
+    cursor: pointer;
 }
 
 /* HEADER */
