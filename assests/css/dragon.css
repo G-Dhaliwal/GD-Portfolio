@@ -1,0 +1,147 @@
+/* General */
+
+* {
+    color: white;
+    text-align: center;
+}
+
+.hide {
+    display: none;
+}
+
+body {
+    background-color: rgb(28, 27, 27);
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkred;
+    cursor: pointer;
+}
+
+/* Header */
+
+header {
+    background-color: black;
+    padding: 1px;
+    border-radius: 10px;
+    margin: auto;
+    border: 5px solid darkred;
+}
+
+.gameTitle {
+    font-size: 3em;
+}
+
+.name {
+    font-size: 1.5em;
+    color: white;
+}
+
+
+/* Main Game Display */
+
+.mainGameContainer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    margin: auto;
+    width: 75em;
+    padding: 1em;
+    border-radius: 25px;
+    border: 5px solid darkred;
+}
+
+.statsContainer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    margin-bottom: -1em;
+    width: 60em;
+    border-radius: 25px;
+    border: 5px solid darkred;
+}
+
+h3 {
+    margin-top: -15px;
+    color: darkred;
+}
+
+.gameLocation {
+    margin-top: -10px;
+    margin-bottom: 10px;
+    color: darkred;
+    text-decoration: underline;
+}
+
+img {
+    width: 45em;
+    height: 25em;
+    border-radius: 15px;
+    margin-left: 10px;
+}
+
+.gameRight {
+    margin: auto;
+}
+
+.monsterInfo, .playerInfo {
+    width: 13em;
+    padding: 1em;
+    border: 5px solid darkred;
+    border-radius: 20px;
+}
+
+.monsterHealth, .playerHealth {
+    color: darkred;
+    margin-bottom: -15px;
+}
+
+.vsSymbol {
+    font-size: 3.5em;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+/* Game Buttons */
+
+.buttonsContainer {
+    display: flex;
+    justify-content: space-evenly;
+    width: 60em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+}
+
+button {
+    background-color: black;
+    border: none;
+    font-size: 2em;
+    padding: 20px;
+    border-radius: 50px;
+    border: 5px solid darkred;
+}
+
+button:hover {
+    color: darkred;
+    cursor: pointer;
+}
+
+
+/* Game Buttons */
+
+footer {
+    background-color: black;
+    padding: 2px;
+    border-radius: 10px;
+    margin: -6px;
+}

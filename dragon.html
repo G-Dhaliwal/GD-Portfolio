@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dragon Slayer</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    
+    <header>
+        <h1 class="gameTitle">Dragon Slayer Game</h1>
+        <h3 class="name">Made by: <a>G.D</a></h3>
+    </header>
+
+
+    <main>
+
+        <!-- All player stats -->
+        <div class="statsContainer">
+            
+            <div class="levelContainer">
+                <h2 class="level" id="currentLevel">
+                    Level 1
+                </h2>
+                <h3 class="currentExp" id="currentExp">
+                    0 / 100
+                </h3>
+            </div>
+
+            <div class="healthContainer">
+                <h2 class="currentHp" id="health">
+                    10 / 10
+                </h2>
+                <h3 class="potions" id="potions">
+                    0 Potions
+                </h3>
+            </div>
+
+            <div class="goldContainer">
+                <h2 class="currentGold" id="currentGold">
+                    0
+                </h2>
+                <h3 class="gold">
+                    Gold
+                </h3>
+            </div>
+
+            <div class="weaponContainer">
+                <h2 class="currentWeapon" id="currentWeapon">
+                    Wooden Sword
+                </h2>
+                <h3 class="weapon">
+                    Current Weapon
+                </h3>
+            </div>
+
+        </div>
+
+        <!-- Main game images and player location -->
+        <div class="mainGameContainer">
+
+            <div class="gameLeft">
+                <div class="currentLocation">
+                    <h1 class="gameLocation" id="currentLocation">
+                        Town
+                    </h1>
+                </div>
+                <div class="mainGame">
+                    <img 
+                        class="town" 
+                        id="imgTown" 
+                        src="./img/town.jpg"
+                        alt="Cartoon medieval town"
+                    >
+
+                    <img 
+                        class="shop hide" 
+                        id="imgShop" 
+                        src="./img/shop.jpg"
+                        alt="Image of a cartoon shop"
+                    >
+
+                    <img 
+                        class="forestWooden hide" 
+                        id="imgForestWooden" 
+                        src="./img/forest-wooden.png"
+                        alt="Image of a forest with a person fighting a slime monster"
+                    >
+
+                    <img 
+                        class="forestDagger hide" 
+                        id="imgForestDagger" 
+                        src="./img/forest-dagger.png"
+                        alt="Image of a forest with a person fighting a slime monster"
+                    >
+
+                    <img 
+                        class="forestSwprd hide" 
+                        id="imgForestSword" 
+                        src="./img/forest-sword.png"
+                        alt="Image of a forest with a person fighting a slime monster"
+                    >
+
+                    <img 
+                        class="caveWooden hide" 
+                        id="imgCaveWooden" 
+                        src="./img/cave-wooden.png"
+                        alt="Image of a cave with a person fighting a bear"
+                    >
+
+                    <img 
+                        class="caveDagger hide" 
+                        id="imgCaveDagger" 
+                        src="./img/cave-dagger.png"
+                        alt="Image of a cave with a person fighting a bear"
+                    >
+                    
+                    <img 
+                        class="caveSword hide" 
+                        id="imgCaveSword" 
+                        src="./img/cave-sword.png"
+                        alt="Image of a cave with a person fighting a bear"
+                    >
+                    
+                    <img 
+                        class="castleWooden hide" 
+                        id="imgCastleWooden" 
+                        src="./img/castle-wooden.png"
+                        alt="Image of a castle with a person fighting a dragon"
+                    >
+                    
+                    <img 
+                        class="castleDagger hide" 
+                        id="imgCastleDagger" 
+                        src="./img/castle-dagger.png"
+                        alt="Image of a castle with a person fighting a dragon"
+                    >
+                    
+                    <img 
+                        class="castleSword hide" 
+                        id="imgCastleSword" 
+                        src="./img/castle-sword.png"
+                        alt="Image of a castle with a person fighting a dragon"
+                    >
+                    
+                </div>
+            </div>
+
+            <div class="gameRight hide" id="fightScreen">
+                <!-- Health points for player and monster that show ONLY when in battle -->
+                 <div class="monsterInfo">
+                    <h1 class="monsterHealth" id="monsterHealth">
+                        10 / 10
+                    </h1>
+                    <h2 class="monsterName" id="monsterName">
+                        Slime
+                    </h2>
+                 </div>
+
+                 <h1 class="vsSymbol">
+                    VS
+                 </h1>
+
+                 <div class="playerInfo">
+                    <h1 class="playerHealth" id="playerHealth">
+                        10 / 10
+                    </h1>
+                    <h2 class="playerName">
+                        Player
+                    </h2>
+                 </div>
+
+            </div>
+
+        </div>
+
+        <!-- Div containing buttons, first show locations (shop, forest, cave, castle), then show one back to town, rest the same when clicked.
+        in fights buttons change to Fight, Heal, Examine, and Flee. At shops buttons show buy health potion, buy dagger, buy sword, return to town -->
+        <div class="buttonsContainer">
+
+            <button class="buttonOne" id="btnOne">
+                Shop
+            </button>
+
+            <button class="buttonTwo" id="btnTwo">
+                Forest
+            </button>
+
+            <button class="buttonThree" id="btnThree">
+                Cave
+            </button>
+
+            <button class="buttonFour" id="btnFour">
+                Castle
+            </button>
+
+            <button class="restartButton hide" id="btnFive">
+                Restart Game
+            </button>
+
+        </div>
+
+    </main>
+
+    <!-- Image credits -->
+    <footer>
+        <p>
+            Image's Designed By: <a href="http://www.freepik.com">Freepik</a>
+        </p>
+    </footer>
+
+    <script src="./index.js"></script>
+</body>
+</html>
