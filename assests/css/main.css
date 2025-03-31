@@ -98,6 +98,7 @@ header {
 
 .aboutHeader {
     font-size: 22px;
+    padding-bottom: 5px;
     border-bottom: 2px solid darkred;
 }
 
@@ -108,11 +109,12 @@ header {
 
 .aboutTraining {
     height: 13em;
-    width: 20em;
+    width: 23em;
 }
 
 .aboutAwards {
     height: 13em;
+    width: 20em;
 }
 
 .awards {
