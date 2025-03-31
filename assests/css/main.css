@@ -146,10 +146,10 @@ button:hover {
 }
 
 .projectMainTitleJS, .projectMainTitleGeneral {
-    padding-top: 3em;
-    padding-bottom: 1.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
     border-bottom: 2px solid darkred;
-    font-size: 24px;
+    font-size: 40px;
 }
 
 .generalProjects,.javascriptProjects {
