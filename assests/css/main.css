@@ -23,7 +23,7 @@ body {
 }
 
 #projectImg:hover {
-    border: 5px solid darkred;
+    border: 2px solid white;
 }
 
 a, a:visited {
