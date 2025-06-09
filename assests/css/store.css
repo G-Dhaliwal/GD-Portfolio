@@ -6,3 +6,8 @@
 body {
     background-image: url(../img/store/background.png);
 }
+
+img {
+    width: auto;
+    height: 20em;
+}
