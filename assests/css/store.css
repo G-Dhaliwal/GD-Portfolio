@@ -7,10 +7,18 @@ body {
     background-image: url(../img/store/background.png);
 }
 
+/* Header */
+
+
+
+/* MAIN SHOP ITEMS */
+
 .shopLarge {
     height: 20em;
     width: 35em;
 }
+
+/* SMALL SHOP ITEMS */
 
 .shopSmall {
     height: 18em;
@@ -22,6 +30,12 @@ body {
     width: auto;
     border-radius: 20px;
 }
+
+/* FOOTER */
+
+
+
+/* TEMP */ 
 
 img {
     width: auto;
