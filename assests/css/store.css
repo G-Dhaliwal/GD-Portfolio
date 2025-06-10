@@ -1,11 +1,8 @@
-* {
-    color: white;
-    border: 1px solid darkred;
-}
 
 body {
     background-image: url(../img/store/background.png);
     text-align: center;
+    color: white;
 }
 
 /* Header */
