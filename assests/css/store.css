@@ -5,11 +5,35 @@
 
 body {
     background-image: url(../img/store/background.png);
+    text-align: center;
 }
 
 /* Header */
 
+header {
+    background-color: rgb(11, 147, 192);
+    border-radius: 1em;
+    margin: 1em;
+}
 
+h1 {
+    font-size: 3em;
+    margin-bottom: -5px;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-top: 0px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkred;
+}
 
 /* MAIN SHOP ITEMS */
 
