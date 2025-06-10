@@ -11,6 +11,7 @@ header {
     background-color: rgb(11, 147, 192);
     border-radius: 1em;
     margin: 1em;
+    padding: 2px;
 }
 
 h1 {
