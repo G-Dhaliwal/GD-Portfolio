@@ -39,7 +39,23 @@ a:hover {
 
 .shopLarge {
     height: 20em;
-    width: 35em;
+    width: 40em;
+}
+
+.mainImg {
+    margin: auto;
+    height: 43em;
+    width: 40em;
+}
+
+.topHalf {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1em;
+}
+
+.create, .edit {
+    margin: 1em;
 }
 
 /* SMALL SHOP ITEMS */
