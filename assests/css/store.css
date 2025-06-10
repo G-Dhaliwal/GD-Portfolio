@@ -63,6 +63,11 @@ a:hover {
     width: 25em;
 }
 
+.mainHtml, .mainCss, .mainJava {
+    display: flex;
+
+}
+
 .logo {
     height: 15em;
     width: auto;
