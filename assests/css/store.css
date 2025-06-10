@@ -7,6 +7,22 @@ body {
     background-image: url(../img/store/background.png);
 }
 
+.shopLarge {
+    height: 20em;
+    width: 35em;
+}
+
+.shopSmall {
+    height: 18em;
+    width: 25em;
+}
+
+.logo {
+    height: 15em;
+    width: auto;
+    border-radius: 20px;
+}
+
 img {
     width: auto;
     height: 20em;
