@@ -12,6 +12,7 @@ header {
     border-radius: 1em;
     margin: 1em;
     padding: 2px;
+    border: 2px solid white;
 }
 
 h1 {
@@ -67,11 +68,13 @@ a:hover {
     background-color: rgb(11, 147, 192);
     margin: 3em;
     border-radius: 20px;
+    border: 2px solid white;
 }
 
 .subtext {
     font-size: 2em;
     padding: 0.5em;
+    margin: auto;
 }
 
 .mainHtml, .mainCss, .mainJava {
@@ -86,7 +89,13 @@ a:hover {
 
 /* FOOTER */
 
-
+footer {
+    background-color: rgb(11, 147, 192);
+    margin: 1em;
+    padding: 1px;
+    border-radius: 20px;
+    border: 2px solid white;
+}
 
 /* TEMP */ 
 
