@@ -63,9 +63,12 @@ a:hover {
     width: 25em;
 }
 
+.subheading {
+    background-color: rgb(11, 147, 192);
+}
+
 .mainHtml, .mainCss, .mainJava {
     display: flex;
-
 }
 
 .logo {
